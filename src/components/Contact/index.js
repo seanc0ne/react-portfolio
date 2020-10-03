@@ -43,11 +43,13 @@ function ContactForm() {
                         defaultValue={message}
                         onChange={handleChange}
                         name="message"
+                        rows="5"
                     />
                 </div>
+                <button type="submit">Submit</button>
             </form>
         </section>
-    )
+    );
 }
-
-export default Contact;
+                
+export default ContactForm;
