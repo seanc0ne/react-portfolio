@@ -3,19 +3,18 @@ import React, { useState } from 'react';
 function Portfolio() {
   const [projects] = useState([
     {
-      name: 'whr',
-      title: 'World Happiness Report',
-      description: 'Data Visualization',
-      technologies: 'd3.js | leaflet.js | geojson | python | pandas',
-      image: 'screen-shot-whr.png',
+      name: 'something-vegan',
+      title: 'Something Vegan',
+      description: 'Vegan Recipe Aggregator',
+      technologies: 'HTML, CSS, JavaScript, Bootstrap, Server-side APIs',
+      image: 'something-vegan-screenshot.png',
     },
     {
-      name: 'covie',
-      title: 'CoVie Search',
-      description: 'Dashboard',
-      technologies:
-        'html | css | bootstrap | js | Plotly.js | server-side APIs',
-      image: 'screen-shot-coviesearch.png',
+      name: 'budget-tracker',
+      title: 'Budget Tracker',
+      description: 'Budget Tracker',
+      technologies: 'MongoDB, IndexedDB',
+      image: 'budget-tracker-screenshot.png',
     },
     {
       name: 'team-profile-generator',
@@ -36,7 +35,7 @@ function Portfolio() {
       title: 'Note Taker',
       description: 'Note Taker',
       technologies: 'JavaScript, Express.js',
-      image: 'note-taker-screenshot,png',
+      image: 'note-taker-screenshot.png',
     },
     {
       name: 'weather-app',
