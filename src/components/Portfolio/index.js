@@ -1,58 +1,65 @@
-import React, {useState} from "react";
-// import { capitalizeFirstLetter } from '../../utils/helpers';
-// import photo from "../../assets/images/5.jpg";
+import React, { useState } from 'react';
 
-function Portfolio(props) {
-//   const currentCategory = {
-//     name: "Sean",
-//     description:
-//       "Photos of Madonna",
-//   };
+function Portfolio() {
   const [projects] = useState([
-      {
-        name: 'Madonna 1',
-        category: 'Self-titled',
-        technologies: '1983'
-      },
-      {
-        name: 'Madonna 2',
-        category: 'Like A Virgin',
-        technologies: '1984'
-      },
-      {
-        name: 'Madonna 3',
-        category: 'True Blue',
-        technologies: '1986'
-      },
-      {
-        name: 'Madonna 4',
-        category: 'Who\'s That Girl',
-        technologies: '1987'
-      },
-      {
-        name: 'Madonna 5',
-        category: 'Like A Prayer',
-        technologies: '1989'
-      },
-      {
-        name: 'Madonna 6',
-        category: 'I\'m Breathless',
-        technologies: '1990'
-      },
-  ])
-    return (
-        <div>
-          <div className="flex-row">
-            {projects.map((project, i) => (
-              <img
-                src={require(`../../assets/images/${i}.jpg`)}
-                alt={project.name}
-                className="img-thumbnail mx-1"
-                key={project.name}
-              />
-            ))}
-          </div>
-        </div>
-    );
+    {
+      name: 'whr',
+      title: 'World Happiness Report',
+      description: 'Data Visualization',
+      technologies: 'd3.js | leaflet.js | geojson | python | pandas',
+      image: 'screen-shot-whr.png',
+    },
+    {
+      name: 'covie',
+      title: 'CoVie Search',
+      description: 'Dashboard',
+      technologies:
+        'html | css | bootstrap | js | Plotly.js | server-side APIs',
+      image: 'screen-shot-coviesearch.png',
+    },
+    {
+      name: 'team-profile-generator',
+      title: 'Team Profile Generator',
+      description: 'Team Profile Generator',
+      technologies: 'JaveScript, Node.js',
+      image: 'team-profile-generator.png',
+    },
+    {
+      name: 'shrinko',
+      title: 'SHRINKO',
+      description: 'Electronic Mental Health Records',
+      technologies: 'Node.js, Express.js, MySQL, Sequelize, bcrypt',
+      image: 'shrinko-screenshot.png',
+    },
+    {
+      name: 'note-taker',
+      title: 'Note Taker',
+      description: 'Note Taker',
+      technologies: 'JavaScript, Express.js',
+      image: 'note-taker-screenshot,png',
+    },
+    {
+      name: 'weather-app',
+      title: 'Weather Dashboard',
+      description: 'Weather Forecast Dashboard',
+      technologies: 'HTML, CSS, Bootstrap, JavaScript, Moment.js, OpenWeather API',
+      image: 'weather-dashboard-screenshot.png',
+    },
+  ]);
+  return (
+    <div>
+      <div className="flex-row">
+        {projects.map((project) => (
+          <img
+            src={require(`../../assets/images/portfolio/${project.image}`)}
+            alt={project.title}
+            className="img-thumbnail mx-1"
+            key={project.name}
+          />
+        ))}
+      </div>
+    </div>
+  );
 }
+
 export default Portfolio;
