@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import About from './components/About';
-import Portfolio from './components/Portfolio';
+import Portfolio from './components/Project';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
 
 function App() {
   const [navItems] = useState([
@@ -32,6 +33,8 @@ function App() {
         return <Portfolio></Portfolio>;
       case 'Contact':
         return <ContactForm></ContactForm>;
+      case 'Resume':
+        return <Resume></Resume>;
       default: 
         return <About></About>;
     }

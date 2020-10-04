@@ -1,6 +1,5 @@
-
 import React from 'react';
-import Navigation from '../Nav';
+import Navigation from '../Navigation';
 function Header(props) {
   const { navItems = [], setCurrentNavItem, currentNavItem } = props;
   return (
