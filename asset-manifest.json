@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.9fb54ae9.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.c2b36223.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.c2b36223.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
+    "static/js/2.178976ef.chunk.js": "/react-portfolio/static/js/2.178976ef.chunk.js",
+    "static/js/2.178976ef.chunk.js.map": "/react-portfolio/static/js/2.178976ef.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.5f49ed95fda468e700a82d68d3e96fc9.js": "/react-portfolio/precache-manifest.5f49ed95fda468e700a82d68d3e96fc9.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.9fb54ae9.chunk.css.map": "/react-portfolio/static/css/main.9fb54ae9.chunk.css.map",
+    "static/js/2.178976ef.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.178976ef.chunk.js.LICENSE.txt",
+    "static/media/0.jpg": "/react-portfolio/static/media/0.09982bcf.jpg",
+    "static/media/1.jpg": "/react-portfolio/static/media/1.60dc3f30.jpg",
+    "static/media/2.jpg": "/react-portfolio/static/media/2.b5484145.jpg",
+    "static/media/4.jpg": "/react-portfolio/static/media/4.8935753a.jpg",
+    "static/media/SeanCone_cv.pdf": "/react-portfolio/static/media/SeanCone_cv.12aaf426.pdf",
+    "static/media/budget-tracker-screenshot.png": "/react-portfolio/static/media/budget-tracker-screenshot.08b28617.png",
+    "static/media/me.jpg": "/react-portfolio/static/media/me.def765d1.jpg",
+    "static/media/note-taker-screenshot.png": "/react-portfolio/static/media/note-taker-screenshot.0a94cd29.png",
+    "static/media/shrinko-screenshot.png": "/react-portfolio/static/media/shrinko-screenshot.4c6fed22.png",
+    "static/media/something-vegan-screenshot.png": "/react-portfolio/static/media/something-vegan-screenshot.35928471.png",
+    "static/media/team-profile-generator-screenshot.png": "/react-portfolio/static/media/team-profile-generator-screenshot.b181fa93.png",
+    "static/media/weather-dashboard-screenshot.png": "/react-portfolio/static/media/weather-dashboard-screenshot.cd72dd1b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.213b1880.js",
+    "static/js/2.178976ef.chunk.js",
+    "static/css/main.9fb54ae9.chunk.css",
+    "static/js/main.c2b36223.chunk.js"
+  ]
+}
