@@ -49,6 +49,8 @@ function Project() {
   return (
     <div>
       <div className="flex-row">
+      {/* <h1 id="about">Portfolio</h1>
+      <p></p> */}
         {projects.map((project) => (
           <img
             src={require(`../../assets/images/${project.image}`)}
