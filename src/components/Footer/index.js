@@ -32,7 +32,6 @@ function Footer() {
                 </a>
             </div>
 
-
             </div>
             
 
