@@ -24,7 +24,7 @@ function Footer() {
             </div>
             <div className="soundcloud">
                 <a
-                    href="https://soundcloud.com/seanisyourdj"
+                    href="https://soundcloud.com/seanisthetea"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
